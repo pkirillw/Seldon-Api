@@ -10,6 +10,10 @@ namespace Seldon;
 
 use Seldon\Exceptions\SeldonException;
 
+/**
+ * Class SeldonApiClass
+ * @package Seldon
+ */
 class SeldonApiClass
 {
     /**
@@ -35,10 +39,19 @@ class SeldonApiClass
         'Password' => ''
     );
 
+    /**
+     * @var string
+     */
     private $proxyUrl = '';
 
+    /**
+     * @var bool
+     */
     private $useProxy = false;
 
+    /**
+     * @var bool
+     */
     private $isAssoc = false;
 
 
